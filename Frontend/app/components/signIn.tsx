@@ -31,9 +31,7 @@ export default function SignIn() {
             <img src = "../logos/CHAMELEON_LOGO_COLOUR.svg" className = "w-250" />
         </a>
         <div className = "flex flex-row space-x-5">
-            <a href = "https://www.starlightdance.net/chameleon" target="_blank" rel="noopener noreferrer">
-                <button className = "text-white text-2xl bg-[#6ab51c] rounded py-4 px-4"> View our catalogue </button>
-            </a>
+            <button onClick={() => router.push('/catalogue')} className = "text-white text-2xl bg-[#6ab51c] rounded py-4 px-4"> View our catalogue </button>
             <button onClick={() => router.push('/contactUs')} className = "text-white text-2xl bg-[#6ab51c] rounded py-4 px-4"> Contact us </button>
         </div>
       </div>
