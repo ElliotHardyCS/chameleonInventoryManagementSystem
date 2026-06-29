@@ -7,7 +7,7 @@ export default function SignIn() {
   const router = useRouter();
 
   return (
-    <main className = "flex flex-row bg-[#262626] h-185 px-20 py-20 space-y-15 space-x-50">
+    <main className = "flex flex-row bg-[#262626] h-185 w-full px-20 py-20 space-y-15 justify-around">
       <div className = "flex flex-col space-y-3 h-85 bg-[#323232] p-4 rounded">
         <header className = "text-white font-bold text-2xl">
             Sign in
