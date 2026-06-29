@@ -7,7 +7,7 @@ export default function NavBar() {
   const router = useRouter();
 
   return (
-    <nav className = "flex flex-col bg-[#111111]">
+    <nav className = "flex flex-col w-auto bg-[#111111]">
       <div className = "flex flex-row px-2 py-2 justify-between">
         <div className = "flex flex-row space-x-2">
           <a href = "https://www.starlightdance.net" target="_blank" rel="noopener noreferrer">
