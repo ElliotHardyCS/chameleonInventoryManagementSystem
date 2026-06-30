@@ -17,7 +17,7 @@ export default function StaffHomePage() {
                         Upcoming deadlines:
                     </header>
 
-                    <DeadlineCard key = "1" deadlineId = '1' show = 'SEVEN' deadlineBody = 'Final program draft sent off' deadline = '10/09/2026'/>
+                    <DeadlineCard key = "1" deadlineId = '1' show = 'SEVEN' deadlineBody = 'Final program draft sent off' deadline = '10/09/2026'/>              
                     
                 </div>
 

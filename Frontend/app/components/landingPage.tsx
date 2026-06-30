@@ -32,14 +32,15 @@ export default function LandingPage() {
 
         <div className = "flex flex-col">
 
+          <button onClick = {() => setDisplay('')} className = "w-44 h-10 py-1 border-b-2 border-white text-white hover:bg-[#bfbfbf]"> DashBoard </button>
           <button onClick = {() => setDisplay('QR code scanner')} className = "w-44 h-10 py-1 border-b-2 border-white text-white hover:bg-[#bfbfbf]"> QR code scanner </button>
-          <button onClick = {() => setDisplay('')} className = "w-44 h-10 py-1 border-b-2 border-white text-white hover:bg-[#bfbfbf]"> Transaction Log </button>
-          <button onClick = {() => setDisplay('QR code scanner')} className = "w-44 h-10 py-1 border-b-2 border-white text-white hover:bg-[#bfbfbf]"> Stock </button>
-          <button onClick = {() => setDisplay('QR code scanner')} className = "w-44 h-10 py-1 border-b-2 border-white text-white hover:bg-[#bfbfbf]"> Users </button>
+          <button onClick = {() => setDisplay('Transaction Log')} className = "w-44 h-10 py-1 border-b-2 border-white text-white hover:bg-[#bfbfbf]"> Transaction Log </button>
+          <button onClick = {() => setDisplay('Stock')} className = "w-44 h-10 py-1 border-b-2 border-white text-white hover:bg-[#bfbfbf]"> Stock </button>
+          <button onClick = {() => setDisplay('Users')} className = "w-44 h-10 py-1 border-b-2 border-white text-white hover:bg-[#bfbfbf]"> Users </button>
 
         </div>
 
-        <button onClick={() => setDisplay('QR code scanner')} className="group flex h-10 w-10 items-center justify-center rounded-md transition-colors hover:bg-[#bfbfbf]/20">
+        <button onClick={() => setDisplay('Account')} className="group flex h-10 w-10 items-center justify-center rounded-md transition-colors hover:bg-[#bfbfbf]/20">
           <svg 
             className="h-8 w-8 text-white transition-colors group-hover:text-[#bfbfbf]" 
             xmlns="http://w3.org" 
